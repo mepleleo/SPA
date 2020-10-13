@@ -7,7 +7,7 @@ SPA利用向量的投影分析，通过将波长投影到其他波长上，比�
 SPA选择的是含有最少冗余信息及最小共线性的变量组合。
 
 该算法简要步骤如下:
-![Image text](https://github.com/mepleleo/SPA/blob/main/%E7%AE%97%E6%B3%95%E6%AD%A5%E9%AA%A4.png)
+![Image](https://github.com/mepleleo/SPA/blob/main/%E7%AE%97%E6%B3%95%E6%AD%A5%E9%AA%A4.png)
 -------------------------摘自《光谱及成像技术在农业中的应用》P130
 
 
