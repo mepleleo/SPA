@@ -52,10 +52,10 @@
    
 
 源链接：https://gitee.com/aBugsLife/SPA
-''''
+````
 （1）变量Xcal，Ycal指的是（Xcalibration和Ycalibration）, Xval个Yval指的是（Xvalidation和Yvalidation）,
     从变量的命名可以看出，Xcal和Ycal是需要计算的光谱矩阵（训练集），Xval和Yval是验证的光谱矩阵（测试集）。
 （2）Xcal（训练集矩阵）和Xval（测试集矩阵）都是M*N的光谱矩阵（M为样本数，N为维度（波段））。
 （3）Ycal和Yval在程序里没有注释，不是很清楚含义。Ycal和Yval都是M*1的维的矩阵，应该是是训练集和测试集的训练标签。
 （4）分析前光谱数据需要平滑去噪，否则误差较大。
-''''
+````
