@@ -163,7 +163,7 @@ class SPA:
             var_sel = var_sel_phase2[index_decreasing_relev[:i + 1]]
             _, e = self._validation(Xcal, ycal, var_sel, Xval, yval)
 
-            PRESS_scree[i] = e.T.dot(e)
+            PRESS_scree[i] = np.conj(e).T.dot(e)
 
         RMSEP_scree = np.sqrt(PRESS_scree / len(e))
 
